@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.candy.candyshop.fragments;
+package org.lluvia.tormenta.fragments;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -94,7 +94,7 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CANDYSHOP;
+        return MetricsProto.MetricsEvent.TORMENTA;
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {

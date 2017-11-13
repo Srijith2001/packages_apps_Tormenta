@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop.fragments;
+package org.lluvia.tormenta.fragments;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -44,8 +44,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.List;
 
-import org.candy.candyshop.preference.PackageListAdapter;
-import org.candy.candyshop.preference.PackageListAdapter.PackageItem;
+import org.lluvia.tormenta.preference.PackageListAdapter;
+import org.lluvia.tormenta.preference.PackageListAdapter.PackageItem;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -104,7 +104,7 @@ public class SlimRecentsBlacklist extends SettingsPreferenceFragment implements
     public int getDialogMetricsCategory(int dialogId) {
         switch (dialogId) {
             case DIALOG_BLACKLIST_APPS:
-                return MetricsEvent.CANDYSHOP;
+                return MetricsEvent.TORMENTA;
             default:
                 return 0;
         }
@@ -128,7 +128,7 @@ public class SlimRecentsBlacklist extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.CANDYSHOP;
+        return MetricsEvent.TORMENTA;
     }
 
     @Override

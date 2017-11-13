@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop.fragments;
+package org.lluvia.tormenta.fragments;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -60,8 +60,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.List;
 
-import org.candy.candyshop.preference.SystemSettingSwitchPreference;
-import org.candy.candyshop.preference.CustomSeekBarPreference;
+import org.lluvia.tormenta.preference.SystemSettingSwitchPreference;
+import org.lluvia.tormenta.preference.CustomSeekBarPreference;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -144,7 +144,7 @@ public class SlimRecentsPanel extends SettingsPreferenceFragment implements
     public int getDialogMetricsCategory(int dialogId) {
         switch (dialogId) {
             case DIALOG_RESET_CONFIRM:
-                return MetricsEvent.CANDYSHOP;
+                return MetricsEvent.TORMENTA;
             default:
                 return 0;
         }
@@ -306,7 +306,7 @@ public class SlimRecentsPanel extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.CANDYSHOP;
+        return MetricsEvent.TORMENTA;
     }
 
     @Override
