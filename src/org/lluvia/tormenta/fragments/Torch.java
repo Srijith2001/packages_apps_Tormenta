@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop.fragments;
+package org.lluvia.tormenta.fragments;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -67,7 +67,7 @@ public class Torch extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CANDYSHOP;
+        return MetricsProto.MetricsEvent.TORMENTA;
     }
 
     @Override

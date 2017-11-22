@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
 */
-package org.candy.candyshop.fragments;
+package org.lluvia.tormenta.fragments;
 
 import android.app.AlertDialog;
 import android.content.ContentResolver;
@@ -52,7 +52,7 @@ public class StatusbarBatteryStyle extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CANDYSHOP;
+        return MetricsProto.MetricsEvent.TORMENTA;
     }
 
     @Override

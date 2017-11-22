@@ -35,6 +35,11 @@
         android:fragment="com.lluvia.tormenta.fragments.LedSettings"
         android:title="@string/leds_title" />
 
+    <Preference
+        android:key="powermenu"
+        android:fragment="org.lluvia.tormenta.fragments.PowerMenu"
+        android:title="@string/powermenu_title" />
+
     <org.lluvia.tormenta.preference.SystemSettingSwitchPreference
         android:key="toast_icon"
         android:title="@string/toast_icon_title"
