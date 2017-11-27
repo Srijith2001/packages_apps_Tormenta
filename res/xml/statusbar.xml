@@ -21,11 +21,6 @@
     android:layout="@layout/tab" >
 
     <Preference
-        android:key="quicksettings"
-        android:title="@string/quicksettings_title"
-        android:fragment="org.lluvia.tormenta.fragments.QuickSettings" />
-
-    <Preference
         android:key="status_bar_battery_style"
         android:title="@string/battery_title"
         android:fragment="org.lluvia.tormenta.fragments.StatusbarBatteryStyle" />
@@ -43,7 +38,7 @@
     <Preference
         android:key="quicksettings"
         android:title="@string/quicksettings_title"
-        android:fragment="org.candy.candyshop.fragments.QuickSettings" />
+        android:fragment="org.lluvia.tormenta.fragments.QuickSettings" />
 
     <Preference
             android:title="@string/statusbar_items_title" >
@@ -55,6 +50,6 @@
     <Preference
         android:key="various_statusbar"
         android:title="@string/various_statusbar_title"
-        android:fragment="org.candy.candyshop.fragments.VariousStatusbar" />
+        android:fragment="org.lluvia.tormenta.fragments.VariousStatusbar" />
 
 </PreferenceScreen>
