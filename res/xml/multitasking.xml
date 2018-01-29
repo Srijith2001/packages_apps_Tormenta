@@ -20,16 +20,11 @@
     android:title="@string/multitasking_category"
     android:layout="@layout/tab" >
 
-    <org.candy.candyshop.preference.SystemSettingSwitchPreference
+    <org.lluvia.tormenta.preference.SystemSettingSwitchPreference
         android:key="headset_connect_player"
         android:title="@string/headset_connect_player_title"
         android:summary="@string/headset_connect_player_summary"
         android:defaultValue="false" />
-
-    <Preference
-       android:key="gesture_anywhere"
-       android:fragment="org.candy.candyshop.gestureanywhere.GestureAnywhereSettings"
-       android:title="@string/gesture_anywhere_title" />
 
     <Preference
         android:key="headset"
