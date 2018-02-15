@@ -140,13 +140,19 @@
     <string name="less_boring_heads_up_title">Make heads up less annoying</string>
     <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app</string>
 
+
+    <!-- QuickSettings -->
+
     <!-- QS rows and columns -->
+    <string name="qs_layout_category">Layout</string>
+    <string name="qs_columns_title">Columns</string>
     <string name="qs_rows_columns_title">QS rows and columns</string>
     <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
     <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
     <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
     <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
     <string name="qs_tile_title_visibility_title">Show tiles title</string>
+    <string name="qs_tile_title_visibility_summary">Show titles underneath quick settings tiles</string>
     <string name="qs_small_tiles_title">Small QS tiles</string>
 
     <!-- Battery light -->
@@ -182,6 +188,57 @@
     <string name="powermenu_lockdown">Lock Down</string>
     <string name="powermenu_soundpanel">Sound Panel</string>
     <string name="powermenu_users">Users</string>
+
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Auto-brightness icon</string>
+    <string name="brightness_icon_summary">Show a auto-brightness icon to the right of the brightness slider to toggle auto-brightness</string>
+
+    <!-- Option to show brightness bar in quick settings -->
+    <string name="show_brightness_title">Brightness slider</string>
+    <string name="show_brightness_summary">Show the brightness slider</string>
+
+    <!-- Clear all recents -->
+    <string name="aosp_recents_title">AOSP recents</string>
+    <string name="show_clear_all_recents_button_title">Clear-all FAB</string>
+    <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
+    <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
+    <string name="recents_clear_all_location_title">Clear all FAB location</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+
+    <!-- Hide Lockscreen clock, date, & alarm -->
+    <string name="lockscreen_items_other">Other</string>
+    <string name="hide_lockscreen_clock_title">Clock widget</string>
+    <string name="hide_lockscreen_clock_summary">Change the clock widget\'s visibility</string>
+    <string name="hide_lockscreen_date_title">Date widget</string>
+    <string name="hide_lockscreen_date_summary">Change the date\'s visibility underneath the clock widget</string>
+    <string name="hide_lockscreen_alarm_title">Alarm text</string>
+    <string name="hide_lockscreen_alarm_summary">Change the alarm text\'s visibility underneath the clock widget</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+
+    <!-- Heads up -->
+    <string name="heads_up_title">Allow Heads up</string>
+    <string name="heads_up_summary_enabled">Heads-up notifications are enabled</string>
+    <string name="heads_up_summary_disabled">Heads-up notifications are disabled</string>
+    <string name="heads_up_blacklist_add_package_title">Add app</string>
+    <string name="heads_up_blacklist_add_package_summary">Disable heads-up notifications in these applications</string>
+    <string name="heads_up_blacklist_title">Blacklist</string>
+    <string name="heads_up_blacklist_choose_app">Select app</string>
+    <string name="heads_up_blacklist_dialog_delete_title">Delete</string>
+    <string name="heads_up_blacklist_dialog_delete_message">Remove selected item?</string>
+
+    <!-- Status bar ticker -->
+    <string name="ticker_mode_title">Allow notification ticker</string>
+    <string name="ticker_disabled">Disabled</string>
+    <string name="ticker_enabled">Notification ticker</string>
+    <string name="ticker_media_enabled">Notification and music ticker</string>
 
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
@@ -491,12 +548,6 @@
     <!-- Heads up options -->
     <string name="statusbar_notifications">Statusbar notifications</string>
     <string name="statusbar_notifications_title">Statusbar ticker and heads-up options</string>
-
-    <!-- Statusbar ticker -->
-    <string name="ticker_mode_title">Statusbar notification ticker</string>
-    <string name="ticker_disabled">Disabled</string>
-    <string name="ticker_enabled">Notification ticker</string>
-    <string name="ticker_media_enabled">Notification and music ticker</string>
 
     <!-- Generic navigation -->
     <string name="navbar_category_title">Software keys</string>
