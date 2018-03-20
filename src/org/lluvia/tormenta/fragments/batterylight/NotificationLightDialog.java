@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop.fragments.batterylight;
+package org.lluvia.tormenta.fragments.batterylight;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -47,8 +47,8 @@ import android.widget.TextView;
 
 import com.android.settings.R;
 
-import org.candy.candyshop.fragments.batterylight.preference.ColorPickerView;
-import org.candy.candyshop.fragments.batterylight.preference.ColorPickerView.OnColorChangedListener;
+import org.lluvia.tormenta.fragments.batterylight.preference.ColorPickerView;
+import org.lluvia.tormenta.fragments.batterylight.preference.ColorPickerView.OnColorChangedListener;
 
 import net.margaritov.preference.colorpicker.ColorPickerPanelView;
 

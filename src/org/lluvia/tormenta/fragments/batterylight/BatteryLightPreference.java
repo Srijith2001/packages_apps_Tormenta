@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop.fragments.batterylight;
+package org.lluvia.tormenta.fragments.batterylight;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

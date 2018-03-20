@@ -21,7 +21,7 @@
 
     <Preference
             android:key="charging_light"
-            android:fragment="org.lluvia.tormenta.fragments.BatteryLightSettings"
+            android:fragment="org.lluvia.tormenta.fragments.batterylight.BatteryLightSettings"
             android:title="@string/battery_light_settings" />
 
     <Preference

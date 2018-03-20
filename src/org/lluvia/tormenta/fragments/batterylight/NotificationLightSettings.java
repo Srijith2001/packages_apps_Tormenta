@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop.fragments.batterylight;
+package org.lluvia.tormenta.fragments.batterylight;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -44,16 +44,16 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.internal.util.du.ColorUtils;
+import com.android.internal.util.candy.ColorUtils;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 
-import org.candy.candyshop.preference.PackageListAdapter;
-import org.candy.candyshop.preference.PackageListAdapter.PackageItem;
-import org.candy.candyshop.preference.SystemSettingSwitchPreference;
+import org.lluvia.tormenta.preference.PackageListAdapter;
+import org.lluvia.tormenta.preference.PackageListAdapter.PackageItem;
+import org.lluvia.tormenta.preference.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -495,7 +495,7 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
     @Override
     public int getDialogMetricsCategory(int id) {
         if (id == DIALOG_APPS) {
-            return MetricsEvent.DIRTYTWEAKS;
+            return MetricsEvent.CANDYSHOP;
         }
         return 0;
     }

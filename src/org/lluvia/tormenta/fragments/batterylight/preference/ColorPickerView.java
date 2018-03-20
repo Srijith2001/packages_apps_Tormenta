@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop.fragments.batterylight.preference;
+package org.lluvia.tormenta.fragments.batterylight.preference;
 
 import android.content.Context;
 import android.graphics.Canvas;
