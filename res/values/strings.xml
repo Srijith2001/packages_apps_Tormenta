@@ -23,17 +23,20 @@
     <string name="statusbar_category">Status Bar</string>
     <string name="navigation_category">Navigation</string>
     <string name="multitasking_category">Multi-Tasking</string>
+    <string name="cloud_category">Cloud</string>
 
-    <string name="tormenta_summary_title">Let is Rain!</string>
+    <!-- Tormenta menu title -->
+    <string name="tormenta_summary_title">Let it Rain!</string>
 
-    <!-- Categories -->
-
-    <!-- QuickSettings -->
-    <!-- Quick Settings brightness icon -->
-    <string name="brightness_icon_title">Brightness slider icon</string>
-    <string name="brightness_icon_summary">Show a brightness icon to the right of the brightness slider to toggle auto-brightness</string>
-
-    <string name="button_category">Buttons</string>
+    <!-- Category titles -->
+    <string name="button_category_title">Buttons</string>
+    <string name="media_options_category_title">Media options</string>
+    <string name="sleep_controls_category_title">Sleep controls</string>
+    <string name="lockscreen_other_category_title">Other</string>
+    <string name="statusbar_options_category_title">Statusbar options</string>
+    <string name="multitasking_category_title">Multi-tasking</string>
+    <string name="screen_capture_options_category_title">Screen capture options</string>
+    <string name="miscellaneous_category_title">Miscellaneous</string>
 
     <!-- Fragments -->
     <string name="headset_title">Headset</string>

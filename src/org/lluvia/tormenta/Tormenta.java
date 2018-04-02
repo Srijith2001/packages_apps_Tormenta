@@ -43,7 +43,7 @@ import org.lluvia.tormenta.tabs.System;
 import org.lluvia.tormenta.tabs.Lockscreen;
 import org.lluvia.tormenta.tabs.StatusBar;
 import org.lluvia.tormenta.tabs.Navigation;
-import org.lluvia.tormenta.tabs.MultiTasking;
+import org.lluvia.tormenta.tabs.Cloud;
 import org.lluvia.tormenta.PagerSlidingTabStrip;
 
 import com.android.settings.R;
@@ -108,7 +108,7 @@ public class Tormenta extends SettingsPreferenceFragment {
             frags[1] = new Lockscreen();
             frags[2] = new StatusBar();
             frags[3] = new Navigation();
-            frags[4] = new MultiTasking();
+            frags[4] = new Cloud();
         }
 
         @Override
@@ -134,7 +134,7 @@ public class Tormenta extends SettingsPreferenceFragment {
                     getString(R.string.lockscreen_category),
                     getString(R.string.statusbar_category),
                     getString(R.string.navigation_category),
-                    getString(R.string.multitasking_category)};
+                    getString(R.string.cloud_category)};
         return titleString;
     }
 
