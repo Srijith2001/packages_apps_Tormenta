@@ -27,12 +27,14 @@
         <Preference
             android:key="recent_settings"
             android:title="@string/recent_settings_title"
+            android:summary="@string/recents_preference_summary"
             android:fragment="org.lluvia.tormenta.fragments.RecentsSettings" />
 
         <Preference
            android:key="gesture_anywhere"
-           android:fragment="org.lluvia.tormenta.gestureanywhere.GestureAnywhereSettings"
-           android:title="@string/gesture_anywhere_title" />
+           android:title="@string/gesture_anywhere_title"
+            android:summary="@string/ga_preference_summary"
+            android:fragment="org.lluvia.tormenta.gestureanywhere.GestureAnywhereSettings" />
 
         <Preference
             android:key="alarm_blocker"
@@ -44,8 +46,8 @@
             android:key="wakelock_blocker"
             android:title="@string/wakelock_blocker_title"
             android:summary="@string/wakelock_blocker_summary"
-            android:fragment="org.lluvia.tormenta.fragments.WakeLockBlocker"/>        
-    
+            android:fragment="org.lluvia.tormenta.fragments.WakeLockBlocker"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -59,7 +61,7 @@
             android:defaultValue="false" />
 
         <!-- Screenshot sound -->
-        <org.candy.candyshop.preference.SystemSettingSwitchPreference
+        <org.lluvia.tormenta.preference.SystemSettingSwitchPreference
             android:key="screenshot_shutter_sound"
             android:title="@string/screenshot_shutter_sound_title" />
 
@@ -83,9 +85,10 @@
         <Preference
             android:key="headset"
             android:title="@string/headset_title"
+            android:summary="@string/headset_preference_summary"
             android:fragment="org.lluvia.tormenta.fragments.Headset" />
 
-        <org.candy.candyshop.preference.GlobalSettingSwitchPreference
+        <org.lluvia.tormenta.preference.GlobalSettingSwitchPreference
             android:key="system_default_animation"
             android:title="@string/system_default_animation_title"
             android:summary="@string/system_default_animation_summary"

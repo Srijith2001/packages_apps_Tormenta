@@ -27,17 +27,20 @@
         <Preference
             android:key="button"
             android:title="@string/button_title"
+            android:summary="@string/buttons_preference_summary"
             android:fragment="org.lluvia.tormenta.fragments.Button" />
 
         <Preference
             android:key="torch"
             android:title="@string/torch_title"
-            android:fragment="org.candy.candyshop.fragments.Torch" />
+            android:summary="@string/power_button_preference_summary"
+            android:fragment="org.lluvia.tormenta.fragments.Torch" />
 
         <Preference
             android:key="powermenu"
-            android:fragment="org.lluvia.tormenta.fragments.PowerMenu"
-            android:title="@string/powermenu_title" />
+            android:title="@string/powermenu_title"
+            android:summary="@string/powermenu_preference_summary"
+            android:fragment="org.lluvia.tormenta.fragments.PowerMenu" />
 
     </PreferenceCategory>
 
@@ -47,8 +50,9 @@
 
         <Preference
             android:key="leds"
-            android:fragment="org.lluvia.tormenta.fragments.LedSettings"
-            android:title="@string/leds_title" />
+            android:title="@string/leds_title"
+            android:summary="@string/leds_preference_summary"
+            android:fragment="org.lluvia.tormenta.fragments.LedSettings" />
 
         <ListPreference
             android:key="less_notification_sounds"
