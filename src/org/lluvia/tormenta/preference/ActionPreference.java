@@ -18,7 +18,7 @@
  * key is identical to the target ConfigMap tag in ActionConstants 
  */
 
-package org.lluvia.tormenta.preferences;
+package org.lluvia.tormenta.preference;
 
 import java.util.Map;
 

@@ -29,7 +29,7 @@ import com.android.internal.utils.du.Config.ActionConfig;
 import com.android.internal.utils.du.Config.ButtonConfig;
 
 import org.lluvia.tormenta.ShortcutPickHelper;
-import org.lluvia.tormenta.preferences.ActionPreference;
+import org.lluvia.tormenta.preference.ActionPreference;
 import org.lluvia.tormenta.CustomActionListAdapter;
 
 import android.app.AlertDialog;
