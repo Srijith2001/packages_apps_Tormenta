@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop;
+package org.lluvia.tormenta;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

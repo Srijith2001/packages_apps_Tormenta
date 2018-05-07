@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop;
+package org.lluvia.tormenta;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -39,13 +39,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.candy.candyshop.tabs.System;
-import org.candy.candyshop.tabs.Lockscreen;
-import org.candy.candyshop.tabs.StatusBar;
-import org.candy.candyshop.tabs.QuickSettings;
-import org.candy.candyshop.tabs.Navigation;
-import org.candy.candyshop.tabs.MultiTasking;
-import org.candy.candyshop.PagerSlidingTabStrip;
+import org.lluvia.tormenta.tabs.System;
+import org.lluvia.tormenta.tabs.Lockscreen;
+import org.lluvia.tormenta.tabs.StatusBar;
+import org.lluvia.tormenta.tabs.QuickSettings;
+import org.lluvia.tormenta.tabs.Navigation;
+import org.lluvia.tormenta.tabs.MultiTasking;
+import org.lluvia.tormenta.PagerSlidingTabStrip;
 import com.android.settings.R;
 import com.android.settings.dashboard.SummaryLoader;
 import com.android.settings.SettingsPreferenceFragment;
@@ -54,7 +54,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CandyShop extends SettingsPreferenceFragment {
+public class Tormenta extends SettingsPreferenceFragment {
 
     ViewPager mViewPager;
     String titleString[];
@@ -66,7 +66,7 @@ public class CandyShop extends SettingsPreferenceFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         mContainer = container;
 
-        View view = inflater.inflate(R.layout.candyshop, container, false);
+        View view = inflater.inflate(R.layout.tormenta, container, false);
         mViewPager = (ViewPager) view.findViewById(R.id.pager);
         mTabs = (PagerSlidingTabStrip) view.findViewById(R.id.tabs);
         StatusBarAdapter StatusBarAdapter = new StatusBarAdapter(getFragmentManager());
@@ -89,7 +89,7 @@ public class CandyShop extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CANDYSHOP;
+        return MetricsProto.MetricsEvent.TORMENTA;
     }
 
     @Override
@@ -153,7 +153,7 @@ public class CandyShop extends SettingsPreferenceFragment {
         @Override
         public void setListening(boolean listening) {
             if (listening) {
-                mSummaryLoader.setSummary(this, mContext.getString(R.string.candyshop_summary_title));
+                mSummaryLoader.setSummary(this, mContext.getString(R.string.tormenta_summary_title));
             }
         }
     }

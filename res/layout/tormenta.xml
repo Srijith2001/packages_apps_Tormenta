@@ -23,7 +23,7 @@
     android:orientation="vertical"
     android:fitsSystemWindows="true">
 
-    <org.candy.candyshop.PagerSlidingTabStrip
+    <org.lluvia.tormenta.PagerSlidingTabStrip
         android:id="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="48dp" />
@@ -33,6 +33,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        tools:context=".CandyShop"/>
+        tools:context=".Tormenta"/>
 
 </LinearLayout>
