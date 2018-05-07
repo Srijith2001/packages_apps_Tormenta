@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop.gestureanywhere;
+package org.lluvia.tormenta.gestureanywhere;
 
 import android.app.ActionBar;
 import android.content.Intent;
@@ -160,7 +160,7 @@ public class GestureAnywhereSettings extends SettingsPreferenceFragment implemen
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CANDYSHOP;
+        return MetricsProto.MetricsEvent.TORMENTA;
     }
 
     @Override

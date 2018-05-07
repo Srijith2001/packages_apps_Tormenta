@@ -41,7 +41,7 @@
 
     </LinearLayout>
 
-    <org.candy.candyshop.gestureanywhere.GestureAnywhereGestureOverlayView
+    <org.lluvia.tormenta.gestureanywhere.GestureAnywhereGestureOverlayView
         android:id="@+id/gestures_overlay"
         android:layout_width="match_parent"
         android:layout_height="0dip"

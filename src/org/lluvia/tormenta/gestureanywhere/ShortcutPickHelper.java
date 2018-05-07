@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop.gestureanywhere;
+package org.lluvia.tormenta.gestureanywhere;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -41,7 +41,7 @@ import android.widget.ExpandableListView;
 import android.widget.TextView;
 
 import com.android.settings.R;
-import org.candy.candyshop.gestureanywhere.ShortcutPickHelper.AppExpandableAdapter.GroupInfo;
+import org.lluvia.tormenta.gestureanywhere.ShortcutPickHelper.AppExpandableAdapter.GroupInfo;
 
 public class ShortcutPickHelper {
 

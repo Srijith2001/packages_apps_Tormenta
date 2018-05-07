@@ -29,16 +29,16 @@
     <Preference
         android:key="headset"
         android:title="@string/headset_title"
-        android:fragment="org.candy.candyshop.fragments.Headset" />
+        android:fragment="org.lluvia.tormenta.fragments.Headset" />
 
     <Preference
         android:key="recent_settings"
         android:title="@string/recent_settings_title"
-        android:fragment="org.candy.candyshop.fragments.RecentsSettings" />
+        android:fragment="org.lluvia.tormenta.fragments.RecentsSettings" />
 
     <Preference
        android:key="gesture_anywhere"
-       android:fragment="com.gzr.wolvesden.gestureanywhere.GestureAnywhereSettings"
+       android:fragment="com.lluvia.tormenta.gestureanywhere.GestureAnywhereSettings"
        android:title="@string/gesture_anywhere_title" />
 
 </PreferenceScreen>

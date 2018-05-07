@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop.gestureanywhere;
+package org.lluvia.tormenta.gestureanywhere;
 
 import android.app.Dialog;
 import android.app.ListActivity;
@@ -43,7 +43,7 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.BitmapDrawable;
 import com.android.settings.R;
-import org.candy.candyshop.gestureanywhere.ShortcutPickHelper;
+import org.lluvia.tormenta.gestureanywhere.ShortcutPickHelper;
 
 import java.util.Map;
 import java.util.Collections;

@@ -41,7 +41,7 @@
     <PreferenceCategory
         android:title="@string/trigger_category" />
 
-    <org.candy.candyshop.preference.CustomSeekBarPreference
+    <org.lluvia.tormenta.preference.CustomSeekBarPreference
         android:key="gesture_anywhere_trigger_width"
         android:persistent="false"
         android:title="@string/trigger_width_title"
@@ -50,7 +50,7 @@
         android:entryValues="@array/gesture_anywhere_trigger_width_values"
         android:dependency="gesture_anywhere_enabled" />
 
-    <org.candy.candyshop.preference.CustomSeekBarPreference
+    <org.lluvia.tormenta.preference.CustomSeekBarPreference
         android:key="gesture_anywhere_trigger_top"
         android:persistent="false"
         android:title="@string/trigger_top_title"
@@ -59,7 +59,7 @@
         android:entryValues="@array/gesture_anywhere_trigger_top_values"
         android:dependency="gesture_anywhere_enabled" />
 
-    <org.candy.candyshop.preference.CustomSeekBarPreference
+    <org.lluvia.tormenta.preference.CustomSeekBarPreference
         android:key="gesture_anywhere_trigger_bottom"
         android:persistent="false"
         android:title="@string/trigger_bottom_title"

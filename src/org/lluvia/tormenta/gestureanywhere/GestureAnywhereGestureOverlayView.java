@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop.gestureanywhere;
+package org.lluvia.tormenta.gestureanywhere;
 
 import android.content.Context;
 import android.gesture.GestureOverlayView;

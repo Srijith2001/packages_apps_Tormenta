@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.candy.candyshop;
+package org.lluvia.tormenta;
 
 import android.content.ContentResolver;
 import android.content.res.Resources;
@@ -52,7 +52,7 @@ public class AmbientTicker extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CANDYSHOP;
+        return MetricsProto.MetricsEvent.TORMENTA;
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
