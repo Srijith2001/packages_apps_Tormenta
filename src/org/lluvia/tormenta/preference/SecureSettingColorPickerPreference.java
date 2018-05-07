@@ -14,26 +14,27 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop.preference;
+package org.lluvia.tormenta.preference;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
-public class SystemSettingMasterSwitchPreference extends MasterSwitchPreference {
+import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
-    public SystemSettingMasterSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
+public class SecureSettingColorPickerPreference extends ColorPickerPreference {
+
+    public SecureSettingColorPickerPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 
-    public SystemSettingMasterSwitchPreference(Context context, AttributeSet attrs) {
+    public SecureSettingColorPickerPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 
-    public SystemSettingMasterSwitchPreference(Context context) {
+    public SecureSettingColorPickerPreference(Context context) {
         super(context);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
-
 }

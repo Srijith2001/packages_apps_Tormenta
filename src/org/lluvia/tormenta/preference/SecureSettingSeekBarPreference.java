@@ -14,27 +14,25 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop.preference;
+package org.lluvia.tormenta.preference;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
-import net.margaritov.preference.colorpicker.ColorPickerPreference;
+public class SecureSettingSeekBarPreference extends CustomSeekBarPreference {
 
-public class SystemSettingColorPickerPreference extends ColorPickerPreference {
-
-    public SystemSettingColorPickerPreference(Context context, AttributeSet attrs, int defStyle) {
+    public SecureSettingSeekBarPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 
-    public SystemSettingColorPickerPreference(Context context, AttributeSet attrs) {
+    public SecureSettingSeekBarPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 
-    public SystemSettingColorPickerPreference(Context context) {
-        super(context);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
+    public SecureSettingSeekBarPreference(Context context) {
+        super(context, null);
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 }

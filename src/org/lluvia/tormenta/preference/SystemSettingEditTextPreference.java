@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop.preference;
+package org.lluvia.tormenta.preference;
 
 import android.content.Context;
 import android.support.v7.preference.EditTextPreference;

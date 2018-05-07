@@ -14,25 +14,26 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop.preference;
+package org.lluvia.tormenta.preference;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
-public class SecureSettingSeekBarPreference extends CustomSeekBarPreference {
+public class SystemSettingMasterSwitchPreference extends MasterSwitchPreference {
 
-    public SecureSettingSeekBarPreference(Context context, AttributeSet attrs, int defStyle) {
+    public SystemSettingMasterSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
 
-    public SecureSettingSeekBarPreference(Context context, AttributeSet attrs) {
+    public SystemSettingMasterSwitchPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
 
-    public SecureSettingSeekBarPreference(Context context) {
-        super(context, null);
-        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
+    public SystemSettingMasterSwitchPreference(Context context) {
+        super(context);
+        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
+
 }

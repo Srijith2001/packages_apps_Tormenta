@@ -14,27 +14,27 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop.preference;
+package org.lluvia.tormenta.preference;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
-public class SecureSettingColorPickerPreference extends ColorPickerPreference {
+public class SystemSettingColorPickerPreference extends ColorPickerPreference {
 
-    public SecureSettingColorPickerPreference(Context context, AttributeSet attrs, int defStyle) {
+    public SystemSettingColorPickerPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
 
-    public SecureSettingColorPickerPreference(Context context, AttributeSet attrs) {
+    public SystemSettingColorPickerPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
 
-    public SecureSettingColorPickerPreference(Context context) {
+    public SystemSettingColorPickerPreference(Context context) {
         super(context);
-        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
+        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
 }
