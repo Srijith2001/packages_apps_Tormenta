@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.candy.candyshop.fragments;
+package org.lluvia.tormenta.fragments;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -435,6 +435,6 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CANDYSHOP;
+        return MetricsProto.MetricsEvent.TORMENTA;
     }
 }
