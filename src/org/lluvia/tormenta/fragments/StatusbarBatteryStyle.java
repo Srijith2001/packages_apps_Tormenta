@@ -41,7 +41,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.Utils;
 
-import org.candy.candyshop.preference.SystemSettingSwitchPreference;
+import org.lluvia.tormenta.preference.SystemSettingSwitchPreference;
 
 public class StatusbarBatteryStyle extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {

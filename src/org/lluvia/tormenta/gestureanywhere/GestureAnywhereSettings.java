@@ -31,7 +31,7 @@ import com.android.settings.R;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.SettingsPreferenceFragment;
 
-import org.candy.candyshop.preference.CustomSeekBarPreference;
+import org.lluvia.tormenta.preference.CustomSeekBarPreference;
 
 public class GestureAnywhereSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {

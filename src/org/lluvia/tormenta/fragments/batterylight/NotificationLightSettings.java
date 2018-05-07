@@ -44,7 +44,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.internal.util.candy.ColorUtils;
+import com.android.internal.util.lluvia.ColorUtils;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;

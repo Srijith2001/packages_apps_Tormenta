@@ -93,12 +93,12 @@
     <string name="systemui_theme_style_light">White Chocolate</string>
     <string name="systemui_theme_style_dark">Dark Chocolate</string>
     <string name="systemui_theme_style_blackaf">Black Licorice</string>
-    <string name="system_dark_theme_toast_before">Sweetening theme! Please wait...</string>
-    <string name="system_dark_theme_toast_after">Sweetness applied!</string>
+    <string name="system_dark_theme_toast_before">Rainbowing theme! Please wait...</string>
+    <string name="system_dark_theme_toast_after">Applied!</string>
 
-    <string name="applying_theme_toast">Sweetening theme, please wait...</string>
-    <string name="theme_applied_toast">Sweetness applied!</string>
-    <string name="substratum_installed_title">Sweet Themes are unavailable because Substratum is installed. Uninstall it if you wish to use Candy Sweetener instead.</string>
+    <string name="applying_theme_toast">Rainbow is arriving, please wait...</string>
+    <string name="theme_applied_toast">Applied!</string>
+    <string name="substratum_installed_title">Sweet Themes are unavailable because Substratum is installed. Uninstall it if you wish to use LLuvia Rainbow instead.</string>
 
     <string name="accent_picker_dialog_title">Sweetness accent color</string>
     <string name="theme_accent_picker_title">Sweetness accent color</string>

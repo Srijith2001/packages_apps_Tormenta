@@ -26,7 +26,7 @@
                 android:targetClass="com.android.systemui.tuner.PowerActivity" />
     </Preference>-->
 
-    <org.candy.candyshop.preference.SystemSettingSwitchPreference
+    <org.lluvia.tormenta.preference.SystemSettingSwitchPreference
         android:key="toast_icon"
         android:title="@string/toast_icon_title"
         android:summary="@string/toast_icon_summary"

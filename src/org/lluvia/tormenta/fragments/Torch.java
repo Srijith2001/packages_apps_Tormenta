@@ -31,7 +31,7 @@ import android.provider.Settings;
 
 import com.android.settings.R;
 import com.android.internal.logging.nano.MetricsProto;
-import com.android.internal.util.candy.CandyUtils;
+import com.android.internal.util.lluvia.LLuviaUtils;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 
@@ -49,7 +49,7 @@ public class Torch extends SettingsPreferenceFragment implements
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
-        if (!CandyUtils.deviceHasFlashlight(getContext())) {
+        if (!LLuviaUtils.deviceHasFlashlight(getContext())) {
             Preference toRemove = prefScreen.findPreference(TORCH_POWER_BUTTON_GESTURE);
             if (toRemove != null) {
                 prefScreen.removePreference(toRemove);

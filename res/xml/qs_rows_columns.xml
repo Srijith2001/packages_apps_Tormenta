@@ -45,7 +45,7 @@
         settings:min="1"
         settings:units="" />
 
-    <org.candy.candyshop.preference.CustomSeekBarPreference
+    <org.lluvia.tormenta.preference.CustomSeekBarPreference
         android:key="sysui_qqs_count_key"
         android:title="@string/qs_small_tiles_title"
         android:max="8"

@@ -49,7 +49,7 @@
         android:summary="@string/qs_footer_warnings_summary"
         android:defaultValue="true" />
 
-    <org.candy.candyshop.preference.CustomSeekBarPreference
+    <org.lluvia.tormenta.preference.CustomSeekBarPreference
         android:key="qs_panel_alpha"
         android:title="@string/qs_panel_alpha_title"
         android:max="255"

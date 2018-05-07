@@ -56,7 +56,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.List;
 
-import org.candy.candyshop.preference.SystemSettingSwitchPreference;
+import org.lluvia.tormenta.preference.SystemSettingSwitchPreference;
 
 public class RecentsSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener, DialogInterface.OnDismissListener {

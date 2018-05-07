@@ -21,7 +21,7 @@
             android:entries="@array/battery_style_entries"
             android:entryValues="@array/battery_style_values" />
 
-        <org.candy.candyshop.preference.SystemSettingSwitchPreference
+        <org.lluvia.tormenta.preference.SystemSettingSwitchPreference
             android:key="battery_percentage"
             android:title="@string/battery_percentage"
             android:summary="@string/battery_percentage_description"/>

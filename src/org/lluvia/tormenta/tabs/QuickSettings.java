@@ -29,7 +29,7 @@ import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 
-import org.candy.candyshop.preference.CustomSeekBarPreference;
+import org.lluvia.tormenta.preference.CustomSeekBarPreference;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;

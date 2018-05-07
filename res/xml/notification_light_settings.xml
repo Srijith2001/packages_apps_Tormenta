@@ -21,12 +21,12 @@
         android:key="general_section"
         android:title="@string/notification_light_general_title">
 
-        <org.candy.candyshop.preference.SystemSettingSwitchPreference
+        <org.lluvia.tormenta.preference.SystemSettingSwitchPreference
             android:key="notification_light_pulse"
             android:title="@string/notification_light_title"
             android:summary="@string/notification_light_title_summary" />
 
-        <org.candy.candyshop.fragments.batterylight.NotificationLightPreference
+        <org.lluvia.tormenta.fragments.batterylight.NotificationLightPreference
             android:key="default"
             android:title="@string/notification_light_default_value"
             android:persistent="false"
@@ -38,18 +38,18 @@
         android:key="advanced_section"
         android:title="@string/advanced">
 
-        <org.candy.candyshop.preference.SystemSettingSwitchPreference
+        <org.lluvia.tormenta.preference.SystemSettingSwitchPreference
             android:key="notification_light_screen_on_enable"
             android:title="@string/notification_light_screen_on"
             android:dependency="notification_light_pulse" />
 
-        <org.candy.candyshop.preference.SystemSettingSwitchPreference
+        <org.lluvia.tormenta.preference.SystemSettingSwitchPreference
             android:key="allow_lights"
             android:title="@string/notification_light_zen_mode"
             android:dependency="notification_light_pulse"
             android:defaultValue="true" />
 
-        <org.candy.candyshop.preference.SystemSettingSwitchPreference
+        <org.lluvia.tormenta.preference.SystemSettingSwitchPreference
             android:key="notification_light_pulse_custom_enable"
             android:title="@string/notification_light_use_custom"
             android:summary="@string/notification_light_use_custom_summary"
@@ -61,13 +61,13 @@
         android:key="phone_list"
         android:title="@string/notification_light_phonelist_title" >
 
-        <org.candy.candyshop.fragments.batterylight.NotificationLightPreference
+        <org.lluvia.tormenta.fragments.batterylight.NotificationLightPreference
             android:key="missed_call"
             android:title="@string/notification_light_missed_call_title"
             android:persistent="false"
             android:dependency="notification_light_pulse_custom_enable" />
 
-        <org.candy.candyshop.fragments.batterylight.NotificationLightPreference
+        <org.lluvia.tormenta.fragments.batterylight.NotificationLightPreference
             android:key="voicemail"
             android:title="@string/notification_light_voicemail_title"
             android:persistent="false"
