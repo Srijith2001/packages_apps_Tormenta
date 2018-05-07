@@ -42,9 +42,7 @@ import android.view.ViewGroup;
 import org.lluvia.tormenta.tabs.System;
 import org.lluvia.tormenta.tabs.Lockscreen;
 import org.lluvia.tormenta.tabs.StatusBar;
-import org.lluvia.tormenta.tabs.QuickSettings;
 import org.lluvia.tormenta.tabs.Navigation;
-import org.lluvia.tormenta.tabs.Button;
 import org.lluvia.tormenta.tabs.MultiTasking;
 import org.lluvia.tormenta.PagerSlidingTabStrip;
 
@@ -109,10 +107,8 @@ public class Tormenta extends SettingsPreferenceFragment {
             frags[0] = new System();
             frags[1] = new Lockscreen();
             frags[2] = new StatusBar();
-            frags[3] = new QuickSettings();
-            frags[4] = new Navigation();
-            frags[5] = new MultiTasking();
-            frags[6] = new Button();
+            frags[3] = new Navigation();
+            frags[4] = new MultiTasking();
         }
 
         @Override
@@ -139,9 +135,7 @@ public class Tormenta extends SettingsPreferenceFragment {
                     getString(R.string.statusbar_category),
                     getString(R.string.quicksettings_category),
                     getString(R.string.navigation_category),
-                    getString(R.string.multitasking_category),
-                    getString(R.string.button_category),
-                    getString(R.string.quicksettings_category)};
+                    getString(R.string.multitasking_category)};
         return titleString;
     }
 
